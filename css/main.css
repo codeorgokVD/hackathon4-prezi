@@ -1,0 +1,57 @@
+html, body, .slides {
+	font-size: 1.4em;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+	font-family: Calibri;
+}
+
+body {
+	background: rgba(0, 0, 0, 1);
+}
+
+.bg {
+	background: transparent url(../assets/bg2.png);
+}
+
+.slides {
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.slide {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.sContent {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.sTitle {
+	color: #333;
+	text-shadow: 0.04em 0.04em 5px rgba(255, 255, 255, 0.8);
+}
+
+.sMain {
+	color: #333;
+	font-weight: bold;
+	line-height: 1.6em;
+}
+
+.sMain b {
+	color: #eee;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.sMain img {
+	border: 1px solid #000;
+	box-shadow: 0 0 20px #333;
+}
